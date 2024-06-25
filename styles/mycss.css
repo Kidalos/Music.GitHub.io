@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+    font-family: Oswald, serif;
+   background-color: #62A772;
+}
+
+
+.navbar {
+    background-color: #153626;
+}
+
+.nav-link {
+    color: #09fb46;
+}
+
+.navbar-nav .nav-link.active {
+    color: #29731f;
+
+}
+
+.navbar-brand img {
+    width: 35px;
+}
+
+.navbar-toggler {
+    background-color: #c8ffd6;
+    ;
+}
+
+.sidebar {
+    color: #000000;
+background-color: #7ce8a588;
+}
+
+.card {
+    color: #000000;
+    background: linear-gradient(270deg, #ADCBB5 0%, #62A772 100%);
+
+}
+
+.btn-primary{
+ border-color: #153626;
+    background-color: #153626;
+}
+footer{
+    background-color: #ADCBB5;
+}
+.slide-text {
+    color: #000000;
+    margin: auto auto;
+}
+.footer-text{
+    color: #c3f6eb;
+    margin: auto auto;
+}
+.footer-text p{
+  margin: 0;}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim { 
+    animation: myAnim 4s ease 5s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
